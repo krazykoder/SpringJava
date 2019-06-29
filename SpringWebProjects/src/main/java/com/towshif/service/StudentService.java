@@ -17,7 +17,7 @@ public class StudentService {
 	private static List<Student> students = new ArrayList<>();
 
 	static {
-		//Initialize Data
+		//Initialize Data // static array list NOT using a database in this example
 		Course course1 = new Course("Course1", "Spring", "10 Steps", Arrays
 				.asList("Learn Maven", "Import Project", "First Example",
 						"Second Example"));

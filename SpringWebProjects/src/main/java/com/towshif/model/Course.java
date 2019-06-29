@@ -13,8 +13,9 @@ public class Course {
 	// no suitable constructor found, can not deserialize from Object value
 	// (missing default constructor or creator, or perhaps need to add/enable
 	// type information?)
+	
 	public Course() {
-
+		String CourseID ; 
 	}
 
 	public Course(String id, String name, String description, List<String> steps) {
